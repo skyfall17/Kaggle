@@ -1,0 +1,11 @@
+inp = ""
+score = 0.5
+while(True):
+  if not inp:
+    output = 'P'
+  else:
+    # determine strategy
+    output = 'R'
+    inp = input()
+  # record
+              
